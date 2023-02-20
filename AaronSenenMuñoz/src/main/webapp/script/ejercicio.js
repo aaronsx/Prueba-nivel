@@ -1,7 +1,7 @@
 function ejercicio1()
 {
 	//Es la variable del dni
-	var dni=26897187;
+	var dni= document.getElementById("dni");
 	//Un lista con las letras
 	var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
 	//Una condicion que si dni es mayor que 0 y menor que 99999999 entre y si no que de una alerta
